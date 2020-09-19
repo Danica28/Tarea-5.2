@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css"></link>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Estudiantes</title>
+</head>
+<body>
+
+ <a href="{% url 'home' %}" >Regresar</a>
+
+
+    <h1>ESTUDIANTES</h1>
+<br>
+<form>
+    <div class="form-group row">
+        <label for="colFormLabel" class="col-sm-2 col-form-label">Carne</label>
+        <div class="col-sm-5">
+          <input type="text" class="form-control" id="colFormLabel" placeholder="">
+      </div>
+    </div>
+    <br>
+    <div class="form-group row">
+      <label for="colFormLabel" class="col-sm-2 col-form-label">Nombre</label>
+      <div class="col-sm-5">
+        <input type="text" class="form-control" id="colFormLabel" placeholder="">
+      </div>
+    </div>
+    <div>
+    <br>
+    </div class="row">
+    <div class="form-group row">
+        <label for="colFormLabel" class="col-sm-2 col-form-label">Apellido</label>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" id="colFormLabel" placeholder="">
+      </div>
+      </div class="row">
+    <div class="form-group row">
+        <label for="colFormLabel" class="col-sm-2 col-form-label">E-mail</label>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" id="colFormLabel" placeholder="">
+      </div>
+         </div class="row">
+    <div class="form-group row">
+        <label for="colFormLabel" class="col-sm-2 col-form-label">Nombre del Articulo</label>
+        <div class="col-sm-2">
+          <input type="text" class="form-control" id="colFormLabel" placeholder="">
+      </div>
+    <br>
+    <br>
+
+    <div class="form-check row ">
+        <div class="col-sm-10" >
+            <button type="Aceptar" class="btn btn-primary my-1">GUARDAR</button>
+        </div>
+        <br>
+        <div class="form-check row ">
+        <div class="col-sm-10" >
+            <button type="Aceptar" class="btn btn-primary my-1">LISTAR</button>
+        </div>
+
+      <CENTER>
+  </form>
+        <br><br><br>
+        <div class="table table-striped table-hover">
+    <table class ="table-bordered" width="600">
+        <tr class="table-success">
+            <th>Carne</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+             <th>E-mail</th>
+            <th>Inteligencia Artificial</th>
+        </tr>
+        <tr>
+            <td>0309-13-6842</td>
+            <td>Sofia Fernanda</td>
+            <td>Lopez Perez</td>
+            <td>sofiafer@gmail.com</td>
+              <th>La educacion Virtual</th>
+        </tr>
+        <tr>
+       <td>0309-13-6842</td>
+            <td>Sofia Fernanda</td>
+            <td>Lopez Perez</td>
+            <td>sofiafer@gmail.com</td>
+              <th>La Educacion Virtual</th>
+        </tr>
+    </table>
+</div>
+  <CENTER>
+
+</body>
+</html>
